@@ -1,0 +1,66 @@
+Imran Hasan
+Phy 267
+HW #3
+
+1
+HUBBLE: SBb
+DV: SBb(sr)
+Spiral structure, boxy/peanut shaped bulge, and bar. It’s not clear to me if the arms are just really tightly wound around nucleus, or its in fact a ring around the nucleus and the arms are coming off of it. so i'll go intermediate on the DV interior classification
+
+2
+HUBBLE: E1/S0
+DV: E1/S0
+I was torn for a long time between E1, S0, E1/S0 (it was difficult to tell them apart in catalogs as well.) Ultimately I would go with E1/S0 and consider the fuzzy bits around the more compact part to be a hint of a disk. The galaxy is not perfectly circular, and has a bit of skew going diagonally across the image.
+
+3
+HUBBLE: SBb
+DV:SBb(r)
+clear bar and spiral structure, in the galaxy. Clear ring around the bar from which the arms come off, round bulge in the center. The bottom arm is more snuggly wound than the top one. 
+
+4
+HUBBLE: IrII
+DV: Sm
+No nucleus, patchy, no symmetry, between spiral and irregular type galaxy. A lot of lumpy features.
+
+5
+HUBBLE: S0
+DV: RS0
+in the center you can see two components-a buldge and disk. Because of the extendedness of the disk-y part I'd chalk it up as an S0 instead of an E type. There is also a ring looking structure on the outside. But I wonder if this were a longer exposure, if the exterior ring would star looking more like a disk, and the galaxy more like an Sa.
+
+
+6
+HUBBLE: Scd
+DV: SAcd
+Edge on view. Patchy features and dust lanes suggest spiral structure. The bulge does not dominate the profile the way it does in Sa type galaxies, like the sombrero galaxy, so I would side with a looser classification. Additionally, because of this I'd side with there being no bar. Since its edge on, I can't tell about any rings
+
+7
+HUBBLE: Sb
+DV: SAb(rs)
+Moderate inclination, no bar, clear spiral structure with lumpy regions and dust lanes. The arms wrap tightly around the nucleus to make a pseudo ring, so I’m giving an intermediate interior classification of rs.
+
+8
+HUBBLE: SBb
+DV: SABb(s)
+Very prominent peanut shaped bulge in the center. It is hard to tell if it is just a 
+really prominent peanut bulge or a bonafide bar, so in the DV system I'd call it mixed. At first I thought there was an interior ring, but after considering it further I believe I mistook the sharp cut off of the bulge’s profile as a ring.
+
+9
+HUBBLE: SBa
+DV: SBa(s)
+Spiral galaxy with a bar and tightly wound arms. The arms passing through
+the nucleus make a nice 's' shape.
+
+10
+HUBBLE: E3
+DV: E3
+I waffled for a while wondering if there was a ‘hint’ of a disk, but ultimately I think this looks more like an elliptical type. The galaxy is bulge dominated in this picture, even though it has some fuzzy stuff around it.
+
+11
+HUBBLE: SBbc
+DV: RSBbc(r)
+barred spiral galaxy with fairly loosely wound arms. There is an interior ring around the bar, and an exterior ring too.
+
+12
+HUBBLE: SBc
+DV: RSABc(rs)
+Loosely wound arms with a small bulge. I’m going to side with a bar since there is a nice linear structure across the nucleus, with the arms unwinding at the ends. It looks like there is a pile up of stuff around the nucleus too, though not enough to warrant an interior ring classification. The exterior ring is much more pronounced
