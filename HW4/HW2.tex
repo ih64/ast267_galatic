@@ -194,18 +194,28 @@ def findIntersection(fun1,fun2,x0):
 R25 = findIntersection(mag_surf, mag, 18)
 
 #calculate C30
-sig_0_disk = 10**-8.366
-sig_0_bulge = 10**-5.469
-numerator = sig_0_disk * np.exp(-(.3*R25)/18.) + 
-	sig_0_bulge * np.exp(-7.67*((.3*R25)/18.)**.25)
 
-denominator= sig_0_disk * np.exp(-(R25)/18.) + 
-	sig_0_bulge * np.exp(-7.67*((R25)/18.)**.25)
 
-print numerator/denominator
+import scipy.integrate as integrate
+def surf_bright(x):
+    '''
+    calculate surface brightness
+    '''
+    sig_0_disk = 10**-8.366
+    sig_0_bulge = 10**-5.469
+    return sig_0_disk * np.exp(-(x)/18.) + sig_0_bulge * np.exp(-7.67*((x)/18.)**.25)
+
+#find the flux inside .3R25 by integrating over the surface brightness
+#and dividing by angular area
+numerator = integrate.quad(lambda x: surf_bright(x) ,0,.3*R25) /(.3*R25)**2
+#find flux inside R25
+denominator= integrate.quad(lambda x: surf_bright(x),0,R25) /(R25)**2
+
+#calculate C30
+print numerator[0]/denominator[0]
 \end{lstlisting}
-gives a C30 of 20.289.
+gives a C30 of 10.379
 
-We can run the program over again, but swapping out \texttt{sig\_0\_bulge} =  10**-5.0689, the new central brightness we found when we calculated the second bulge to disk ratio, and we get a C30 of 24.738. The second galaxy is bulge-ier, which is consistent with what we found previously
+We can run the program over again, but swapping out \texttt{sig\_0\_bulge} =  10**-5.0689, the new central brightness we found when we calculated the second bulge to disk ratio, and we get a C30 of 10.697. The second galaxy is bulge-ier, which is consistent with what we found previously. However, the ratio differed by almost a factor of 3 in the previous problems. so I probably messed up somewhere. Also, the bulge to disk ratios were of order unity, and the C30s here are of order 10. So I'm pretty sure I messed up somewhere, though I can't find my mistake :(
 
 \end{document}
